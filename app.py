@@ -6,5 +6,6 @@ app = Flask(__name__)
 def hello():
     return "hello docker"
 
-if __name__ = "__main__":
+    
+if __name__ == "__main__":
     app.run()
